@@ -9,6 +9,26 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&trans>;
+            key-positions = <>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
