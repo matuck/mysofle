@@ -14,16 +14,6 @@
         compatible = "zmk,combos";
     };
 
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            label = "caps_macro";
-            #binding-cells = <0>;
-            bindings = <&kp CAPS>;
-            tap-ms = <200>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
