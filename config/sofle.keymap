@@ -12,18 +12,19 @@
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
+
         tri_layer {
             if-layers = <1 2>;
             then-layer = <3>;
         };
     };
-    
+
     combos {
         compatible = "zmk,combos";
 
         caps_combo {
             bindings = <&kp CAPS>;
-            key-positions = <24 36>;
+            key-positions = <24 12>;
             layers = <0>;
         };
     };
