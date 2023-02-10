@@ -49,7 +49,7 @@
                         &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &lt 1 LEFT_BRACKET  &lt 2 RIGHT_BRACKET  &kp RET  &kp EQUAL   &kp RALT  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
 
         lower {
@@ -69,7 +69,7 @@
                          &trans       &trans    &trans     &trans  &trans  &trans     &trans    &trans           &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
 
         Nav {
@@ -88,7 +88,7 @@
                                 &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans    &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
 
         Adjust {
@@ -100,7 +100,7 @@
                                   &trans        &trans        &trans        &trans  &trans  &trans                          &trans                           &trans                            &trans                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN &inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN &inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
     };
 };
