@@ -9,7 +9,7 @@ manifest:
       #remote: zmkfirmware
       #revision: main
       remote: infused-kim
-      revision: sofle
+      revision: my-changes/sofle-improvements
       import: app/west.yml
   self:
     path: config
