@@ -42,6 +42,7 @@
 
         default {
             label = "QWERTY";
+
             // ------------------------------------------------------------------------------------------------------------
             // |  `    |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
             // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BKSPC |
@@ -62,6 +63,7 @@
 
         symbol {
             label = "Symbol";
+
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
             // |       |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
@@ -83,6 +85,7 @@
 
         Nav {
             label = "Nav";
+
             // ------------------------------------------------------------------------------------------------------------
             // |BTCLR| BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
             // |     | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
@@ -92,8 +95,8 @@
 
             bindings = <
 &trans       &kp C_PP    &kp C_STOP     &kp C_PREV      &kp C_NEXT         &trans                     &trans    &trans    &trans     &trans   &trans  &kp HOME
-&trans        &kp INS     &kp PSCRN    &kp K_CMENU          &trans         &trans                  &kp PG_UP    &trans    &kp UP     &trans   &kp N0   &kp END
-&trans       &kp LALT     &kp LCTRL      &kp LSHFT          &trans       &kp CLCK                  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
+&trans        &kp INS     &kp PSCRN    &kp K_CMENU   &kp C_AC_BACK     &kp C_MENU                  &kp PG_UP    &trans    &kp UP     &trans   &kp N0   &kp END
+&trans       &kp LALT     &kp LCTRL      &kp LSHFT   &kp C_AC_HOME       &kp CLCK                  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO  &trans  &trans     &trans    &trans    &trans     &trans   &trans    &trans
                              &trans         &trans          &trans         &trans  &trans  &trans     &trans    &trans    &trans     &trans
             >;
