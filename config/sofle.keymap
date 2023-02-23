@@ -35,16 +35,6 @@
             key-positions = <58 55>;
             layers = <0 1 2 3 4>;
         };
-
-        DVORAK_COMBO {
-            bindings = <&tog 1>;
-            key-positions = <36 54>;
-        };
-
-        new_combo {
-            bindings = <&tog 2>;
-            key-positions = <36 55>;
-        };
     };
 
     keymap {
