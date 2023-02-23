@@ -33,7 +33,17 @@
         num_layer {
             bindings = <&tog 6>;
             key-positions = <58 55>;
-            layers = <0 1 2 >;
+            layers = <0 1 2>;
+        };
+
+        dvorak_layer {
+            bindings = <&tog 1>;
+            key-positions = <36 54>;
+        };
+
+        colmak_layer {
+            bindings = <&tog 2>;
+            key-positions = <36 55>;
         };
     };
 
@@ -86,7 +96,7 @@
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
         };
-        
+
         symbol {
             label = "Symbol";
 
