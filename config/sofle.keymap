@@ -31,7 +31,7 @@
         };
 
         num_layer {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <58 55>;
             layers = <0 1 2 3 4>;
         };
