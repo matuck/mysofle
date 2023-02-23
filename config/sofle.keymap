@@ -33,7 +33,7 @@
         num_layer {
             bindings = <&tog 6>;
             key-positions = <58 55>;
-            layers = <0 1 2>;
+            layers = <0 1 2 6>;
         };
 
         dvorak_layer {
