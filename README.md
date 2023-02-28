@@ -1,7 +1,7 @@
 # mysofle
 
 This is only in the planning stages right now.  This is a place for me to keep my notes until I get everything ordered get it built and tested.
-
+![My Sofle Keyboard](assets/soflemx.jpg)
 ## Parts
 * [Sofle Kit](https://www.diykeyboards.com/parts/pcbs/product/631-) Includes most stuff including leds
 * [Rotary Encoder with knobs](https://www.diykeyboards.com/parts/electronics/product/rotary-encoder-ec11)x2
