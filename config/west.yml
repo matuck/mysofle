@@ -10,7 +10,7 @@ manifest:
     - name: zmk
       #remote: zmkfirmware
       #revision: main
-      revision: splitencoders
+      revision: encoder
       remote: matuck
       #revision: sofle
       import: app/west.yml
