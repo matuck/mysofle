@@ -2,6 +2,7 @@
 
 This is only in the planning stages right now.  This is a place for me to keep my notes until I get everything ordered get it built and tested.
 ![My Sofle Keyboard](assets/soflemx.jpg)
+![Keyboard Layout](assets/soflemx-rgb-2-1.png)
 ## Parts
 * [Sofle Kit](https://www.diykeyboards.com/parts/pcbs/product/631-) Includes most stuff including leds
 * [Rotary Encoder with knobs](https://www.diykeyboards.com/parts/electronics/product/rotary-encoder-ec11)x2
@@ -22,3 +23,4 @@ There is some extra keycaps in there each of those is 50 keycaps. My plan is to 
 ## Helpful links
 * [ZMK Docs](https://zmk.dev/docs)
 * [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/). You can also run this locally.  Just go to the git repo linked at bottom of the editor and follow instructions
+* [Keyboard layout](http://www.keyboard-layout-editor.com/#/gists/c8746c4ec0a3afdd1420ac8a96ec3f03)
