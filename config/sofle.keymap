@@ -30,6 +30,8 @@
                 , <&macro_param_1to2>
                 , <&bt BT_SEL MACRO_PLACEHOLDER>
                 ;
+        };
+    };
 
     combos {
         compatible = "zmk,combos";
