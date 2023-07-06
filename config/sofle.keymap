@@ -23,7 +23,7 @@
 
     macros {
         btselector: btselector {
-            label: "btselector";
+            label = "btselector";
             compatible = "zmk,behavior-macro-one-param";
             bindings
                 = <&out OUT_BLE>
