@@ -25,6 +25,7 @@
         btselector: btselector {
             label = "btselector";
             compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <0>;
             bindings
                 = <&out OUT_BLE>
                 , <&macro_param_1to2>
