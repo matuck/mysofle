@@ -8,10 +8,10 @@ manifest:
       url-base: https://github.com/matuck
   projects:
     - name: zmk
-      #remote: zmkfirmware
-      #revision: main
-      remote: matuck
-      revision: sofle
+      remote: zmkfirmware
+      revision: main
+      #remote: matuck
+      #revision: sofle
       import: app/west.yml
   self:
     path: config
