@@ -176,7 +176,7 @@
                 &trans  &trans  &trans  &trans  &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
-            ssensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
+        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
     };
 };
