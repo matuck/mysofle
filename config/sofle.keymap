@@ -81,7 +81,7 @@
                         &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &lt 3 LEFT_BRACKET  &lt 4 RIGHT_BRACKET  &kp RET  &kp MINUS   &kp RALT  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
 
         DVORAK {
@@ -94,7 +94,7 @@
                                &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &lt 3 LEFT_BRACKET  &lt 4 RIGHT_BRACKET  &kp RET  &kp MINUS  &kp RALT  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
 
         COLMAK {
@@ -107,7 +107,7 @@
                         &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &lt 3 LEFT_BRACKET  &lt 4 RIGHT_BRACKET  &kp RET  &kp MINUS   &kp RALT  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
 
         symbol {
@@ -129,7 +129,7 @@
                          &trans       &trans    &trans     &trans  &trans  &trans     &trans    &trans           &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
 
         Nav {
@@ -150,7 +150,7 @@
                              &trans         &trans          &trans         &trans  &trans  &trans     &trans    &trans    &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
 
         Adjust {
@@ -163,7 +163,7 @@
                                        &trans        &trans        &trans        &trans  &trans  &trans                          &trans                           &trans                            &trans                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN &inc_dec_kp PAGE_DOWN UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
 
         Num {
@@ -176,7 +176,7 @@
                 &trans  &trans  &trans  &trans  &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP>;
+            ssensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
         };
     };
 };
