@@ -23,7 +23,6 @@
 
     macros {
         btselector: btselector {
-            label = "btselector";
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings
@@ -64,7 +63,7 @@
         compatible = "zmk,keymap";
 
         default {
-            label = "QWERTY";
+            display-name = "QWERTY";
 
             // ------------------------------------------------------------------------------------------------------------
             // |  `    |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
@@ -85,7 +84,7 @@
         };
 
         DVORAK {
-            label = "DVORAK";
+            display-name = "DVORAK";
             bindings = <
      &kp GRAVE         &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                                            &kp N6     &kp N7    &kp N8     &kp N9  &kp N0    &kp BACKSPACE
        &kp TAB        &kp SQT  &kp COMMA   &kp DOT     &kp P      &kp Y                                             &kp F      &kp G     &kp C      &kp R   &kp L    &kp BACKSLASH
@@ -98,7 +97,7 @@
         };
 
         COLMAK {
-            label = "COLMAK";
+            display-name = "COLMAK";
             bindings = <
      &kp GRAVE  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                                            &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp BACKSPACE
        &kp TAB   &kp Q      &kp W     &kp F     &kp P      &kp G                                             &kp J      &kp L      &kp U      &kp Y  &kp SEMI    &kp BACKSLASH
@@ -111,7 +110,7 @@
         };
 
         symbol {
-            label = "Symbol";
+            display-name = "Symbol";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -133,7 +132,7 @@
         };
 
         Nav {
-            label = "Nav";
+            display-name = "Nav";
 
             // ------------------------------------------------------------------------------------------------------------
             // |BTCLR| BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
@@ -154,7 +153,7 @@
         };
 
         Adjust {
-            label = "Adjust";
+            display-name = "Adjust";
             bindings = <
      &out OUT_USB  &btselector 0  &btselector 1  &btselector 2  &btselector 3  &btselector 4                                 &rgb_ug RGB_TOG                  &rgb_ug RGB_EFF                   &rgb_ug RGB_SPI                   &rgb_ug RGB_SPD                   &rgb_ug RGB_BRD                   &rgb_ug RGB_BRI
 &ext_power EP_TOG        &sys_reset        &trans        &trans        &trans        &trans                                 &rgb_ug RGB_HUD                  &rgb_ug RGB_HUI                   &rgb_ug RGB_SAD                   &rgb_ug RGB_SAI                            &trans                            &trans
@@ -167,7 +166,7 @@
         };
 
         Num {
-            label = "Num_pad";
+            display-name = "Num_pad";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                        &kp CLEAR  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_PLUS  &kp LOCKING_NUM
